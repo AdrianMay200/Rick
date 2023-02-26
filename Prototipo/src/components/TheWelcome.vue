@@ -1,86 +1,41 @@
-<script setup>
-import WelcomeItem from './WelcomeItem.vue'
-import DocumentationIcon from './icons/IconDocumentation.vue'
-import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
-</script>
-
 <template>
-  <WelcomeItem>
-    <template #icon>
-      <DocumentationIcon />
-    </template>
-    <template #heading>Documentation</template>
+    <WelcomeItem >
+    
 
-    Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
-  </WelcomeItem>
+    <div style="margin: 30px 0px 50px 0px">
+      <h1 class="text-purple-600 text-2xl text-center font-serif"><b>5 razones por las que debes empezar a ver Rick y Morty de inmediato</b></h1>
 
-  <WelcomeItem>
-    <template #icon>
-      <ToolingIcon />
-    </template>
-    <template #heading>Tooling</template>
+    </div>
 
-    This project is served and bundled with
-    <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
-    recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a> +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank" rel="noopener">Volar</a>. If
-    you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a> and
-    <a href="https://on.cypress.io/component" target="_blank">Cypress Component Testing</a>.
+    <h3 class="text-black text-2x5 text-center"><b>1-Si Vover al Futuro y Los Simpson tuvieran un bebé grosero</b></h3>
+      <br>
+      <div style="margin: 30px 300px 50px 300px">
+        <p class="text-black text-2x6 text-justify font-mono ">Dan Harmon es el encargado de escribir los episodios de Rick y Morty. Luego de crear Community, Harmon decidió aventurarse en el mundo de la animación, el resultado es una interesante combinación entre historias propias de la ciencia ficción y situaciones cómicas como las que podríamos encontrar en Los Simpson, pero con un enfoque más adulto..</p>
+      </div>
+    <h3 class="text-black text-2x5 text-center"><b>2-La secuencia en que veas la serie no importa, por razones complicadas</b></h3>
+      <br>
+      <div style="margin: 30px 300px 50px 300px">
+        <p class="text-black text-2x6 text-justify font-mono ">Rick y Morty juega mucho con la teoría de los mundos paralelos. Es raro que en algún episodio no usen la pistola de portales de Rick para aventurarse hacia un nuevo universo. Una de las teorías más populares afirma que, la mayoría de las veces, los sucesos que observamos en la serie le suceden a diferentes versiones de los protagonistas. En la superficie parecen ser los mismos pero, en realidad, estamos viendo versiones paralelas. Lo que explica algunos puntos importantes de la trama.</p>
+      </div>
+    <h3 class="text-black text-2x5 text-center "><b>3-Muy al estilo Simpson, el lado humano de los personajes es de gran importancia</b></h3>
+      <br>
+    <div style="margin: 30px 300px 50px 300px">
+        <p class="text-black text-2x6 text-justify font-mono">Rick es un viejo deprimido que, a pesar de ser uno de los hombres más inteligentes de todos los universos, no logra ser feliz. Morty lo complementa con su inocencia y su carácter precavido. La relación entre ambos es bastante compleja e interesante. Es un placer observar cómo esta se desenvuelve a lo largo de la serie.</p>
+      </div>
+      <h3 class="text-black text-2x5 text-center"><b>4-El trabajo de voces es impecable</b></h3>
+      <br>
+      <div style="margin: 30px 300px 50px 300px">
+        <p class="text-black text-2x6 text-justify font-mono">Justin Roiland se encarga de otorgarle sus voces a los dos personajes principales. Su rango vocal es tan amplio que es capaz de abarcar todo tipo de tonos hilarantes. También suele doblar a personajes secundarios, cada uno con su voz única y distintiva.</p>
+      </div>
+      <h3 class="text-black text-2x5 text-center"><b>5-La creatividad de sus guiones no tiene límites</b></h3>
+      <br>
+      <div style="margin: 30px 300px 50px 300px">
+        <p class="text-black text-2x6 text-justify font-mono">Las dos temporadas con las que cuenta son impresionantes. La originalidad en la manera que trata sus temas es lo más atrayente. No encontrarás dos episodios siquiera similares. Las variaciones que existen tanto en ritmo como en las dificultades de los personajes mutan constantemente.</p>
+      </div>
 
-    <br />
+      <div>
+        
+      </div>
+    </WelcomeItem>
 
-    More instructions are available in <code>README.md</code>.
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      <EcosystemIcon />
-    </template>
-    <template #heading>Ecosystem</template>
-
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
-    you need more resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      <CommunityIcon />
-    </template>
-    <template #heading>Community</template>
-
-    Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
-    Discord server, or
-    <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a href="https://news.vuejs.org" target="_blank" rel="noopener">our mailing list</a> and follow
-    the official
-    <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
-    twitter account for latest news in the Vue world.
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      <SupportIcon />
-    </template>
-    <template #heading>Support Vue</template>
-
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
-  </WelcomeItem>
 </template>
