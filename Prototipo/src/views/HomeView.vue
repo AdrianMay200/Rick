@@ -4,6 +4,17 @@ import TheWelcome from '../components/TheWelcome.vue'
 
 <template>
   <main class="fondo">
+    <div>
+      <img src="https://img.icons8.com/plasticine/1x/morty-smith.png"  style="margin: 0px 100px 100px 0px">
+      <img src="https://img.icons8.com/plasticine/1x/rick-sanchez.png"  style="margin: 0px 100px 100px 0px">
+      <img src="https://img.icons8.com/plasticine/1x/summer-smith.png"  style="margin: 0px 100px 100px 0px">
+      <img src="https://img.icons8.com/plasticine/1x/jerry-smith.png"  style="margin: 0px 100px 100px 0px">
+      <img src="https://img.icons8.com/plasticine/1x/beth-smith.png"  style="margin: 0px 100px 100px 0px">
+      <img src="https://img.icons8.com/plasticine/1x/morty-smith.png"  style="margin: 0px 100px 100px 0px">
+      <img src="https://img.icons8.com/plasticine/1x/rick-sanchez.png"  style="margin: 0px 100px 100px 0px">
+      
+
+    </div>
     <TheWelcome />
     <div>
       <img src="https://img.icons8.com/plasticine/1x/morty-smith.png"  style="margin: 0px 100px 100px 0px">
@@ -11,9 +22,12 @@ import TheWelcome from '../components/TheWelcome.vue'
       <img src="https://img.icons8.com/plasticine/1x/summer-smith.png"  style="margin: 0px 100px 100px 0px">
       <img src="https://img.icons8.com/plasticine/1x/jerry-smith.png"  style="margin: 0px 100px 100px 0px">
       <img src="https://img.icons8.com/plasticine/1x/beth-smith.png"  style="margin: 0px 100px 100px 0px">
+      <img src="https://img.icons8.com/plasticine/1x/morty-smith.png"  style="margin: 0px 100px 100px 0px">
+      <img src="https://img.icons8.com/plasticine/1x/rick-sanchez.png"  style="margin: 0px 100px 100px 0px">
       
 
     </div>
+
     
   </main>
   
